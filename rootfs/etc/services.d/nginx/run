@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv sh
+
+#Run with user root pid 1.
+exec nginx;
+
+#Run with user www-data.
+#exec s6-setuidgid www-data nginx;
