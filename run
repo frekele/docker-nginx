@@ -1,0 +1,1 @@
+docker run --rm --name nginx -p 80:80 -p 443:443 frekele/nginx
