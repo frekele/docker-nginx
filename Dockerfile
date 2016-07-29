@@ -2,8 +2,7 @@ FROM frekele/debian:stable
 
 MAINTAINER frekele <leandro.freitas@softdevelop.com.br>
 
-ENV NGINX_VERSION=1.11.3-1~jessie
-ENV NGINX_MOD_NJS_VERSION=${NGINX_VERSION}
+ENV NGINX_VERSION=1.11.3
 
 # Change to tmp folder
 WORKDIR /tmp
@@ -12,12 +11,12 @@ RUN apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 573BFD6B3D8FBC64107
 	&& echo "deb http://nginx.org/packages/mainline/debian/ jessie nginx" >> /etc/apt/sources.list \
 	&& apt-get update \
 	&& apt-get install --no-install-recommends --no-install-suggests -y \
-						nginx=${NGINX_VERSION} \
-						nginx-module-xslt=${NGINX_VERSION} \
-						nginx-module-geoip=${NGINX_VERSION} \
-						nginx-module-image-filter=${NGINX_VERSION} \
-						nginx-module-perl=${NGINX_VERSION} \
-						nginx-module-njs=1.11.3* \
+						nginx=${NGINX_VERSION}-1~jessie \
+						nginx-module-xslt=${NGINX_VERSION}* \
+						nginx-module-geoip=${NGINX_VERSION}* \
+						nginx-module-image-filter=${NGINX_VERSION}* \
+						nginx-module-perl=${NGINX_VERSION}* \
+						nginx-module-njs=${NGINX_VERSION}* \
 						gettext-base \
 	&& rm -rf /var/lib/apt/lists/*
 
