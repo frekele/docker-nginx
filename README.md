@@ -12,7 +12,7 @@
 | [Website]  | [GitHub]  | [DockerHub]  |
 
 
-#### Nginx with Debian Branches:
+#### Nginx with Debian - Branches:
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
 | [1.11.3] - latest           | debian:jessie            | Production   | 1.11.3, 1.11, 1, latest                    |
@@ -24,7 +24,7 @@
 | [dev-debian]                | debian:jessie            | Development  | dev-debian                                 |
 
 
-#### Nginx with Alpine Branches:
+#### Nginx with Alpine - Branches:
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
 | [1.11.3-alpine]             | alpine:3.4               | Production   | 1.11.3-alpine, 1.11-alpine, 1-alpine       |
