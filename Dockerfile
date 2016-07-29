@@ -3,6 +3,7 @@ FROM frekele/debian:stable
 MAINTAINER frekele <leandro.freitas@softdevelop.com.br>
 
 ENV NGINX_VERSION=1.11.3-1~jessie
+
 ENV NGINX_MOD_XSLT_VERSION=${NGINX_VERSION}
 ENV NGINX_MOD_GEOIP_VERSION=${NGINX_VERSION}
 ENV NGINX_MOD_IMAGE_FILTER_VERSION=${NGINX_VERSION}
@@ -16,7 +17,6 @@ RUN apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 573BFD6B3D8FBC64107
 	&& echo "deb http://nginx.org/packages/mainline/debian/ jessie nginx" >> /etc/apt/sources.list \
 	&& apt-get update \
 	&& apt-get install --no-install-recommends --no-install-suggests -y \
-						ca-certificates \
 						nginx=${NGINX_VERSION} \
 						nginx-module-xslt=${NGINX_MOD_XSLT_VERSION} \
 						nginx-module-geoip=${NGINX_MOD_GEOIP_VERSION} \
