@@ -12,11 +12,18 @@
 | [Website]  | [GitHub]  | [DockerHub]  |
 
 
-#### Nginx with Oracle JDK Branches:
-| Branch                      | From                     | Usage        | Tag Names                           |
-| --------------------------- | ------------------------ | ------------ | ------------------------------------|
+#### Nginx with Debian Branches:
+| Branch                      | From                     | Usage        | Tag Names                                  |
+| --------------------------- | ------------------------ | ------------ | -------------------------------------------|
+| [1.11.3] - latest           | debian:jessie            | Production   | 1.11.3, 1.11, 1, latest                    |
+| [dev-debian]                | debian:jessie            | Development  | dev-debian                                 |
 
-TODO
+
+#### Nginx with Alpine Branches:
+| Branch                      | From                     | Usage        | Tag Names                                  |
+| --------------------------- | ------------------------ | ------------ | -------------------------------------------|
+| [1.11.3-alpine]             | alpine:3.4               | Production   | 1.11.3-alpine, 1.11-alpine, 1-alpine       |
+| [dev-alpine]                | alpine:3.4               | Development  | dev-alpine                                 |
 
 
 # Dockerfile extends From:
