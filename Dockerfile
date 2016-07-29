@@ -17,7 +17,7 @@ RUN apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 573BFD6B3D8FBC64107
 						nginx-module-geoip=${NGINX_VERSION} \
 						nginx-module-image-filter=${NGINX_VERSION} \
 						nginx-module-perl=${NGINX_VERSION} \
-						nginx-module-njs=${NGINX_MOD_NJS_VERSION} \
+						nginx-module-njs=1.11.3* \
 						gettext-base \
 	&& rm -rf /var/lib/apt/lists/*
 
