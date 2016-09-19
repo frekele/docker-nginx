@@ -15,7 +15,8 @@
 #### Nginx with Debian - Branches:
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
-| [1.11.3] - latest           | debian:jessie            | Production   | 1.11.3, 1.11, 1, latest                    |
+| [1.11.4] - latest           | debian:jessie            | Production   | 1.11.4, 1.11, 1, latest                    |
+| [1.11.3]                    | debian:jessie            | Production   | 1.11.3                                     |
 | [1.11.2]                    | debian:jessie            | Production   | 1.11.2                                     |
 | [1.11.1]                    | debian:jessie            | Production   | 1.11.1                                     |
 | [1.11.0]                    | debian:jessie            | Production   | 1.11.0                                     |
@@ -27,7 +28,8 @@
 #### Nginx with Alpine - Branches:
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
-| [1.11.3-alpine]             | alpine:3.4               | Production   | 1.11.3-alpine, 1.11-alpine, 1-alpine       |
+| [1.11.4-alpine]             | alpine:3.4               | Production   | 1.11.4-alpine, 1.11-alpine, 1-alpine       |
+| [1.11.3-alpine]             | alpine:3.4               | Production   | 1.11.3-alpine                              |
 | [1.11.2-alpine]             | alpine:3.4               | Production   | 1.11.2-alpine                              |
 | [1.11.1-alpine]             | alpine:3.4               | Production   | 1.11.1-alpine                              |
 | [1.11.0-alpine]             | alpine:3.4               | Production   | 1.11.0-alpine                              |
