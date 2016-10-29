@@ -21,7 +21,8 @@
 | [1.11.2]                    | debian:jessie            | Production   | 1.11.2                                     |
 | [1.11.1]                    | debian:jessie            | Production   | 1.11.1                                     |
 | [1.11.0]                    | debian:jessie            | Production   | 1.11.0                                     |
-| [1.10.1]                    | debian:jessie            | Production   | 1.10.1, 1.10                               |
+| [1.10.2]                    | debian:jessie            | Production   | 1.10.2, 1.10                               |
+| [1.10.1]                    | debian:jessie            | Production   | 1.10.1                                     |
 | [1.10.0]                    | debian:jessie            | Production   | 1.10.0                                     |
 | [dev-debian]                | debian:jessie            | Development  | dev-debian                                 |
 
@@ -35,7 +36,8 @@
 | [1.11.2-alpine]             | alpine:3.4               | Production   | 1.11.2-alpine                              |
 | [1.11.1-alpine]             | alpine:3.4               | Production   | 1.11.1-alpine                              |
 | [1.11.0-alpine]             | alpine:3.4               | Production   | 1.11.0-alpine                              |
-| [1.10.1-alpine]             | alpine:3.4               | Production   | 1.10.1-alpine, 1.10-alpine                 |
+| [1.10.2-alpine]             | alpine:3.4               | Production   | 1.10.2-alpine, 1.10-alpine                 |
+| [1.10.1-alpine]             | alpine:3.4               | Production   | 1.10.1-alpine                              |
 | [1.10.0-alpine]             | alpine:3.4               | Production   | 1.10.0-alpine                              |
 | [dev-alpine]                | alpine:3.4               | Development  | dev-alpine                                 |
 
@@ -89,6 +91,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [1.11.2]: https://github.com/frekele/docker-nginx/blob/1.11.2/Dockerfile
 [1.11.1]: https://github.com/frekele/docker-nginx/blob/1.11.1/Dockerfile
 [1.11.0]: https://github.com/frekele/docker-nginx/blob/1.11.0/Dockerfile
+[1.10.2]: https://github.com/frekele/docker-nginx/blob/1.10.2/Dockerfile
 [1.10.1]: https://github.com/frekele/docker-nginx/blob/1.10.1/Dockerfile
 [1.10.0]: https://github.com/frekele/docker-nginx/blob/1.10.0/Dockerfile
 [dev-debian]: https://github.com/frekele/docker-nginx/blob/dev-debian/Dockerfile
@@ -99,6 +102,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [1.11.2-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.2-alpine/Dockerfile
 [1.11.1-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.1-alpine/Dockerfile
 [1.11.0-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.0-alpine/Dockerfile
+[1.10.2-alpine]: https://github.com/frekele/docker-nginx/blob/1.10.2-alpine/Dockerfile
 [1.10.1-alpine]: https://github.com/frekele/docker-nginx/blob/1.10.1-alpine/Dockerfile
 [1.10.0-alpine]: https://github.com/frekele/docker-nginx/blob/1.10.0-alpine/Dockerfile
 [dev-alpine]: https://github.com/frekele/docker-nginx/blob/dev-alpine/Dockerfile
