@@ -87,6 +87,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [NGINX LICENSE]: https://github.com/frekele/docker-nginx/blob/dev-debian/NGINX_LICENSE
 [MIT LICENSE]: https://github.com/frekele/docker-nginx/blob/dev-debian/LICENSE
 
+[1.11.6]: https://github.com/frekele/docker-nginx/blob/1.11.6/Dockerfile
 [1.11.5]: https://github.com/frekele/docker-nginx/blob/1.11.5/Dockerfile
 [1.11.4]: https://github.com/frekele/docker-nginx/blob/1.11.4/Dockerfile
 [1.11.3]: https://github.com/frekele/docker-nginx/blob/1.11.3/Dockerfile
@@ -98,6 +99,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [1.10.0]: https://github.com/frekele/docker-nginx/blob/1.10.0/Dockerfile
 [dev-debian]: https://github.com/frekele/docker-nginx/blob/dev-debian/Dockerfile
 
+[1.11.6-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.6-alpine/Dockerfile
 [1.11.5-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.5-alpine/Dockerfile
 [1.11.4-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.4-alpine/Dockerfile
 [1.11.3-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.3-alpine/Dockerfile
