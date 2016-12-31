@@ -15,35 +15,37 @@
 #### Nginx with Debian - Branches:
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
-| [1.11.7] - latest           | debian:jessie            | Production   | 1.11.7, 1.11, 1, latest                    |
-| [1.11.6]                    | debian:jessie            | Production   | 1.11.6                                     |
-| [1.11.5]                    | debian:jessie            | Production   | 1.11.5                                     |
-| [1.11.4]                    | debian:jessie            | Production   | 1.11.4                                     |
-| [1.11.3]                    | debian:jessie            | Production   | 1.11.3                                     |
-| [1.11.2]                    | debian:jessie            | Production   | 1.11.2                                     |
-| [1.11.1]                    | debian:jessie            | Production   | 1.11.1                                     |
-| [1.11.0]                    | debian:jessie            | Production   | 1.11.0                                     |
-| [1.10.2]                    | debian:jessie            | Production   | 1.10.2, 1.10                               |
-| [1.10.1]                    | debian:jessie            | Production   | 1.10.1                                     |
-| [1.10.0]                    | debian:jessie            | Production   | 1.10.0                                     |
-| [dev-debian]                | debian:jessie            | Development  | dev-debian                                 |
+| [1.11.8] - latest           | frekele/debian:stable    | Production   | 1.11.8, 1.11, 1, latest                    |
+| [1.11.7]                    | frekele/debian:stable    | Production   | 1.11.7                                     |
+| [1.11.6]                    | frekele/debian:stable    | Production   | 1.11.6                                     |
+| [1.11.5]                    | frekele/debian:stable    | Production   | 1.11.5                                     |
+| [1.11.4]                    | frekele/debian:stable    | Production   | 1.11.4                                     |
+| [1.11.3]                    | frekele/debian:stable    | Production   | 1.11.3                                     |
+| [1.11.2]                    | frekele/debian:stable    | Production   | 1.11.2                                     |
+| [1.11.1]                    | frekele/debian:stable    | Production   | 1.11.1                                     |
+| [1.11.0]                    | frekele/debian:stable    | Production   | 1.11.0                                     |
+| [1.10.2]                    | frekele/debian:stable    | Production   | 1.10.2, 1.10                               |
+| [1.10.1]                    | frekele/debian:stable    | Production   | 1.10.1                                     |
+| [1.10.0]                    | frekele/debian:stable    | Production   | 1.10.0                                     |
+| [dev-debian]                | frekele/debian:stable    | Development  | dev-debian                                 |
 
 
 #### Nginx with Alpine - Branches:
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
-| [1.11.7-alpine]             | alpine:3.4               | Production   | 1.11.7-alpine, 1.11-alpine, 1-alpine       |
-| [1.11.6-alpine]             | alpine:3.4               | Production   | 1.11.6-alpine                              |
-| [1.11.5-alpine]             | alpine:3.4               | Production   | 1.11.5-alpine                              |
-| [1.11.4-alpine]             | alpine:3.4               | Production   | 1.11.4-alpine                              |
-| [1.11.3-alpine]             | alpine:3.4               | Production   | 1.11.3-alpine                              |
-| [1.11.2-alpine]             | alpine:3.4               | Production   | 1.11.2-alpine                              |
-| [1.11.1-alpine]             | alpine:3.4               | Production   | 1.11.1-alpine                              |
-| [1.11.0-alpine]             | alpine:3.4               | Production   | 1.11.0-alpine                              |
-| [1.10.2-alpine]             | alpine:3.4               | Production   | 1.10.2-alpine, 1.10-alpine                 |
-| [1.10.1-alpine]             | alpine:3.4               | Production   | 1.10.1-alpine                              |
-| [1.10.0-alpine]             | alpine:3.4               | Production   | 1.10.0-alpine                              |
-| [dev-alpine]                | alpine:3.4               | Development  | dev-alpine                                 |
+| [1.11.8-alpine]             | frekele/alpine:stable    | Production   | 1.11.8-alpine, 1.11-alpine, 1-alpine       |
+| [1.11.7-alpine]             | frekele/alpine:stable    | Production   | 1.11.7-alpine                              |
+| [1.11.6-alpine]             | frekele/alpine:stable    | Production   | 1.11.6-alpine                              |
+| [1.11.5-alpine]             | frekele/alpine:stable    | Production   | 1.11.5-alpine                              |
+| [1.11.4-alpine]             | frekele/alpine:stable    | Production   | 1.11.4-alpine                              |
+| [1.11.3-alpine]             | frekele/alpine:stable    | Production   | 1.11.3-alpine                              |
+| [1.11.2-alpine]             | frekele/alpine:stable    | Production   | 1.11.2-alpine                              |
+| [1.11.1-alpine]             | frekele/alpine:stable    | Production   | 1.11.1-alpine                              |
+| [1.11.0-alpine]             | frekele/alpine:stable    | Production   | 1.11.0-alpine                              |
+| [1.10.2-alpine]             | frekele/alpine:stable    | Production   | 1.10.2-alpine, 1.10-alpine                 |
+| [1.10.1-alpine]             | frekele/alpine:stable    | Production   | 1.10.1-alpine                              |
+| [1.10.0-alpine]             | frekele/alpine:stable    | Production   | 1.10.0-alpine                              |
+| [dev-alpine]                | frekele/alpine:stable    | Development  | dev-alpine                                 |
 
 
 # Dockerfile extends From:
@@ -89,6 +91,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [NGINX LICENSE]: https://github.com/frekele/docker-nginx/blob/dev-debian/NGINX_LICENSE
 [MIT LICENSE]: https://github.com/frekele/docker-nginx/blob/dev-debian/LICENSE
 
+[1.11.8]: https://github.com/frekele/docker-nginx/blob/1.11.8/Dockerfile
 [1.11.7]: https://github.com/frekele/docker-nginx/blob/1.11.7/Dockerfile
 [1.11.6]: https://github.com/frekele/docker-nginx/blob/1.11.6/Dockerfile
 [1.11.5]: https://github.com/frekele/docker-nginx/blob/1.11.5/Dockerfile
@@ -102,6 +105,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [1.10.0]: https://github.com/frekele/docker-nginx/blob/1.10.0/Dockerfile
 [dev-debian]: https://github.com/frekele/docker-nginx/blob/dev-debian/Dockerfile
 
+[1.11.8-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.8-alpine/Dockerfile
 [1.11.7-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.7-alpine/Dockerfile
 [1.11.6-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.6-alpine/Dockerfile
 [1.11.5-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.5-alpine/Dockerfile
