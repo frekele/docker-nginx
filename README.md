@@ -15,7 +15,8 @@
 #### Nginx with Debian - Branches:
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
-| [1.11.8] - latest           | frekele/debian:stable    | Production   | 1.11.8, 1.11, 1, latest                    |
+| [1.11.9] - latest           | frekele/debian:stable    | Production   | 1.11.9, 1.11, 1, latest                    |
+| [1.11.8]                    | frekele/debian:stable    | Production   | 1.11.8                                     |
 | [1.11.7]                    | frekele/debian:stable    | Production   | 1.11.7                                     |
 | [1.11.6]                    | frekele/debian:stable    | Production   | 1.11.6                                     |
 | [1.11.5]                    | frekele/debian:stable    | Production   | 1.11.5                                     |
@@ -33,7 +34,8 @@
 #### Nginx with Alpine - Branches:
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
-| [1.11.8-alpine]             | frekele/alpine:stable    | Production   | 1.11.8-alpine, 1.11-alpine, 1-alpine       |
+| [1.11.9-alpine]             | frekele/alpine:stable    | Production   | 1.11.9-alpine, 1.11-alpine, 1-alpine       |
+| [1.11.8-alpine]             | frekele/alpine:stable    | Production   | 1.11.8-alpine                              |
 | [1.11.7-alpine]             | frekele/alpine:stable    | Production   | 1.11.7-alpine                              |
 | [1.11.6-alpine]             | frekele/alpine:stable    | Production   | 1.11.6-alpine                              |
 | [1.11.5-alpine]             | frekele/alpine:stable    | Production   | 1.11.5-alpine                              |
