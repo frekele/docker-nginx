@@ -16,7 +16,7 @@
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
 | [1.12.0] - latest           | frekele/debian:stable    | Production   | 1.12.0, 1.12, 1, latest                    |
-| [1.11.12]                   | frekele/debian:stable    | Production   | 1.11.12, 1.11                              |
+| [1.11.13]                   | frekele/debian:stable    | Production   | 1.11.13, 1.11                              |
 | [1.11.12]                   | frekele/debian:stable    | Production   | 1.11.12                                    |
 | [1.11.11]                   | frekele/debian:stable    | Production   | 1.11.11                                    |
 | [1.11.10]                   | frekele/debian:stable    | Production   | 1.11.10                                    |
@@ -41,7 +41,7 @@
 | Branch                      | From                     | Usage        | Tag Names                                         |
 | --------------------------- | ------------------------ | ------------ | --------------------------------------------------|
 | [1.12.0-alpine]             | frekele/alpine:stable    | Production   | 1.12.0-alpine, 1.11-alpine, 1-alpine, alpine      |
-| [1.11.12-alpine]            | frekele/alpine:stable    | Production   | 1.11.12-alpine, 1.11-alpine                       |
+| [1.11.13-alpine]            | frekele/alpine:stable    | Production   | 1.11.13-alpine, 1.11-alpine                       |
 | [1.11.12-alpine]            | frekele/alpine:stable    | Production   | 1.11.12-alpine                                    |
 | [1.11.11-alpine]            | frekele/alpine:stable    | Production   | 1.11.11-alpine                                    |
 | [1.11.10-alpine]            | frekele/alpine:stable    | Production   | 1.11.10-alpine                                    |
