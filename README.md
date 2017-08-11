@@ -15,7 +15,8 @@
 #### Nginx with Debian - Branches:
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
-| [1.13.3] - latest           | frekele/debian:stable    | Production   | 1.13.3, 1.13, 1, latest                    |
+| [1.13.4] - latest           | frekele/debian:stable    | Production   | 1.13.4, 1.13, 1, latest                    |
+| [1.13.3]                    | frekele/debian:stable    | Production   | 1.13.3                                     |
 | [1.13.2]                    | frekele/debian:stable    | Production   | 1.13.2                                     |
 | [1.13.1]                    | frekele/debian:stable    | Production   | 1.13.1                                     |
 | [1.13.0]                    | frekele/debian:stable    | Production   | 1.13.0                                     |
@@ -45,7 +46,8 @@
 #### Nginx with Alpine - Branches:
 | Branch                      | From                     | Usage        | Tag Names                                         |
 | --------------------------- | ------------------------ | ------------ | --------------------------------------------------|
-| [1.13.3-alpine]             | frekele/alpine:stable    | Production   | 1.13.3-alpine, 1.13-alpine, 1-alpine, alpine      |
+| [1.13.4-alpine]             | frekele/alpine:stable    | Production   | 1.13.4-alpine, 1.13-alpine, 1-alpine, alpine      |
+| [1.13.3-alpine]             | frekele/alpine:stable    | Production   | 1.13.3-alpine                                     |
 | [1.13.2-alpine]             | frekele/alpine:stable    | Production   | 1.13.2-alpine                                     |
 | [1.13.1-alpine]             | frekele/alpine:stable    | Production   | 1.13.1-alpine                                     |
 | [1.13.0-alpine]             | frekele/alpine:stable    | Production   | 1.13.0-alpine                                     |
@@ -115,6 +117,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [NGINX LICENSE]: https://github.com/frekele/docker-nginx/blob/dev-debian/NGINX_LICENSE
 [MIT LICENSE]: https://github.com/frekele/docker-nginx/blob/dev-debian/LICENSE
 
+[1.13.4]: https://github.com/frekele/docker-nginx/blob/1.13.4/Dockerfile
 [1.13.3]: https://github.com/frekele/docker-nginx/blob/1.13.3/Dockerfile
 [1.13.2]: https://github.com/frekele/docker-nginx/blob/1.13.2/Dockerfile
 [1.13.1]: https://github.com/frekele/docker-nginx/blob/1.13.1/Dockerfile
@@ -142,6 +145,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [dev-debian]: https://github.com/frekele/docker-nginx/blob/dev-debian/Dockerfile
 
 
+[1.13.4-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.4-alpine/Dockerfile
 [1.13.3-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.3-alpine/Dockerfile
 [1.13.2-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.2-alpine/Dockerfile
 [1.13.1-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.1-alpine/Dockerfile
