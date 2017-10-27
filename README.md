@@ -76,7 +76,7 @@
 | [1.11.1-alpine]             | frekele/alpine:stable    | Production   | 1.11.1-alpine                                     |
 | [1.11.0-alpine]             | frekele/alpine:stable    | Production   | 1.11.0-alpine                                     |
 | [1.10.3-alpine]             | frekele/alpine:stable    | Production   | 1.10.3-alpine, 1.10-alpine                        |
-| [1.10.1-alpine]             | frekele/alpine:stable    | Production   | 1.10.1-alpine                                     |
+| [1.10.2-alpine]             | frekele/alpine:stable    | Production   | 1.10.2-alpine                                     |
 | [1.10.1-alpine]             | frekele/alpine:stable    | Production   | 1.10.1-alpine                                     |
 | [1.10.0-alpine]             | frekele/alpine:stable    | Production   | 1.10.0-alpine                                     |
 | [master-alpine]             | frekele/alpine:stable    | Development  | dev-alpine                                        |
