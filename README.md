@@ -17,7 +17,7 @@
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
 | [1.13.9] - latest           | frekele/debian:stable    | Production   | 1.13.9, 1.13, 1, latest                    |
-| [1.13.8]                    | frekele/debian:stable    | Production   | 1.13.7                                     |
+| [1.13.8]                    | frekele/debian:stable    | Production   | 1.13.8                                     |
 | [1.13.7]                    | frekele/debian:stable    | Production   | 1.13.7                                     |
 | [1.13.6]                    | frekele/debian:stable    | Production   | 1.13.6                                     |
 | [1.13.5]                    | frekele/debian:stable    | Production   | 1.13.5                                     |
