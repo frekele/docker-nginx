@@ -16,7 +16,8 @@
 
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
-| [1.13.8] - latest           | frekele/debian:stable    | Production   | 1.13.8, 1.13, 1, latest                    |
+| [1.13.9] - latest           | frekele/debian:stable    | Production   | 1.13.9, 1.13, 1, latest                    |
+| [1.13.8]                    | frekele/debian:stable    | Production   | 1.13.7                                     |
 | [1.13.7]                    | frekele/debian:stable    | Production   | 1.13.7                                     |
 | [1.13.6]                    | frekele/debian:stable    | Production   | 1.13.6                                     |
 | [1.13.5]                    | frekele/debian:stable    | Production   | 1.13.5                                     |
@@ -53,7 +54,8 @@
 
 | Branch                      | From                     | Usage        | Tag Names                                         |
 | --------------------------- | ------------------------ | ------------ | --------------------------------------------------|
-| [1.13.8-alpine]             | frekele/alpine:stable    | Production   | 1.13.8-alpine, 1.13-alpine, 1-alpine, alpine      |
+| [1.13.9-alpine]             | frekele/alpine:stable    | Production   | 1.13.9-alpine, 1.13-alpine, 1-alpine, alpine      |
+| [1.13.8-alpine]             | frekele/alpine:stable    | Production   | 1.13.8-alpine                                     |
 | [1.13.7-alpine]             | frekele/alpine:stable    | Production   | 1.13.7-alpine                                     |
 | [1.13.6-alpine]             | frekele/alpine:stable    | Production   | 1.13.6-alpine                                     |
 | [1.13.5-alpine]             | frekele/alpine:stable    | Production   | 1.13.5-alpine                                     |
@@ -130,6 +132,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [MIT LICENSE]: https://github.com/frekele/docker-nginx/blob/master/LICENSE
 
 
+[1.13.9]: https://github.com/frekele/docker-nginx/blob/1.13.9/Dockerfile
 [1.13.8]: https://github.com/frekele/docker-nginx/blob/1.13.8/Dockerfile
 [1.13.7]: https://github.com/frekele/docker-nginx/blob/1.13.7/Dockerfile
 [1.13.6]: https://github.com/frekele/docker-nginx/blob/1.13.6/Dockerfile
@@ -163,6 +166,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [master]: https://github.com/frekele/docker-nginx/blob/master/Dockerfile
 
 
+[1.13.9-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.9-alpine/Dockerfile
 [1.13.8-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.8-alpine/Dockerfile
 [1.13.7-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.7-alpine/Dockerfile
 [1.13.6-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.6-alpine/Dockerfile
