@@ -101,9 +101,9 @@ See [NGINX LICENSE]
 
 frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of the license are as follows:
 
-    The MIT License (MIT)
+    MIT License
 
-    Copyright (c) 2016-2018 - @frekele<Leandro Kersting de Freitas>
+    Copyright (c) 2016-2018 @frekele<Leandro Kersting de Freitas>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -122,6 +122,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
+
 
 [NginxImage]: https://raw.githubusercontent.com/frekele/docker-nginx/master/nginx-logo.png
 [NginxWebsite]: https://nginx.org/
