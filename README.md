@@ -52,7 +52,7 @@
 | [1.10.2]                    | frekele/debian:stable    | Production   | 1.10.2                                     |
 | [1.10.1]                    | frekele/debian:stable    | Production   | 1.10.1                                     |
 | [1.10.0]                    | frekele/debian:stable    | Production   | 1.10.0                                     |
-| [master]                    | frekele/debian:stable    | Development  | dev-debian                                 |
+| [master]                    | frekele/debian:stable    | Development  | dev                                        |
 
 # Dockerfile extends From:
 - https://github.com/frekele/docker-debian
