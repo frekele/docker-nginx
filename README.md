@@ -16,7 +16,12 @@
 
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
-| [1.13.9] - latest           | frekele/debian:stable    | Production   | 1.13.9, 1.13, 1, latest                    |
+| [1.15.0] - latest           | frekele/debian:stable    | Production   | 1.15.0, 1.15, 1, latest                    |
+| [1.14.0]                    | frekele/debian:stable    | Production   | 1.14.0, 1.14                               |
+| [1.13.12]                   | frekele/debian:stable    | Production   | 1.13.12, 1.13                              |
+| [1.13.11]                   | frekele/debian:stable    | Production   | 1.13.11                                    |
+| [1.13.10]                   | frekele/debian:stable    | Production   | 1.13.10                                    |
+| [1.13.9]                    | frekele/debian:stable    | Production   | 1.13.9                                     |
 | [1.13.8]                    | frekele/debian:stable    | Production   | 1.13.8                                     |
 | [1.13.7]                    | frekele/debian:stable    | Production   | 1.13.7                                     |
 | [1.13.6]                    | frekele/debian:stable    | Production   | 1.13.6                                     |
@@ -133,6 +138,11 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [MIT LICENSE]: https://github.com/frekele/docker-nginx/blob/master/LICENSE
 
 
+[1.15.0]: https://github.com/frekele/docker-nginx/blob/1.15.0/Dockerfile
+[1.14.0]: https://github.com/frekele/docker-nginx/blob/1.14.0/Dockerfile
+[1.13.12]: https://github.com/frekele/docker-nginx/blob/1.13.12/Dockerfile
+[1.13.11]: https://github.com/frekele/docker-nginx/blob/1.13.11/Dockerfile
+[1.13.10]: https://github.com/frekele/docker-nginx/blob/1.13.10/Dockerfile
 [1.13.9]: https://github.com/frekele/docker-nginx/blob/1.13.9/Dockerfile
 [1.13.8]: https://github.com/frekele/docker-nginx/blob/1.13.8/Dockerfile
 [1.13.7]: https://github.com/frekele/docker-nginx/blob/1.13.7/Dockerfile
