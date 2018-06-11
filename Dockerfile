@@ -2,7 +2,7 @@ FROM frekele/debian:stable
 
 MAINTAINER frekele <leandro.freitas@softdevelop.com.br>
 
-ENV NGINX_VERSION=1.13.9
+ENV NGINX_VERSION=1.13.10
 
 # Change to tmp folder
 WORKDIR /tmp
