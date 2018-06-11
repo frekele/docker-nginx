@@ -16,8 +16,13 @@
 
 | Branch                      | From                     | Usage        | Tag Names                                  |
 | --------------------------- | ------------------------ | ------------ | -------------------------------------------|
-| [1.13.9] - latest           | frekele/debian:stable    | Production   | 1.13.9, 1.13, 1, latest                    |
-| [1.13.8]                    | frekele/debian:stable    | Production   | 1.13.7                                     |
+| [1.15.0] - latest           | frekele/debian:stable    | Production   | 1.15.0, 1.15, 1, latest                    |
+| [1.14.0]                    | frekele/debian:stable    | Production   | 1.14.0, 1.14                               |
+| [1.13.12]                   | frekele/debian:stable    | Production   | 1.13.12, 1.13                              |
+| [1.13.11]                   | frekele/debian:stable    | Production   | 1.13.11                                    |
+| [1.13.10]                   | frekele/debian:stable    | Production   | 1.13.10                                    |
+| [1.13.9]                    | frekele/debian:stable    | Production   | 1.13.9                                     |
+| [1.13.8]                    | frekele/debian:stable    | Production   | 1.13.8                                     |
 | [1.13.7]                    | frekele/debian:stable    | Production   | 1.13.7                                     |
 | [1.13.6]                    | frekele/debian:stable    | Production   | 1.13.6                                     |
 | [1.13.5]                    | frekele/debian:stable    | Production   | 1.13.5                                     |
@@ -49,48 +54,9 @@
 | [1.10.0]                    | frekele/debian:stable    | Production   | 1.10.0                                     |
 | [master]                    | frekele/debian:stable    | Development  | dev-debian                                 |
 
-
-#### Nginx with Alpine - Branches:
-
-| Branch                      | From                     | Usage        | Tag Names                                         |
-| --------------------------- | ------------------------ | ------------ | --------------------------------------------------|
-| [1.13.9-alpine]             | frekele/alpine:stable    | Production   | 1.13.9-alpine, 1.13-alpine, 1-alpine, alpine      |
-| [1.13.8-alpine]             | frekele/alpine:stable    | Production   | 1.13.8-alpine                                     |
-| [1.13.7-alpine]             | frekele/alpine:stable    | Production   | 1.13.7-alpine                                     |
-| [1.13.6-alpine]             | frekele/alpine:stable    | Production   | 1.13.6-alpine                                     |
-| [1.13.5-alpine]             | frekele/alpine:stable    | Production   | 1.13.5-alpine                                     |
-| [1.13.4-alpine]             | frekele/alpine:stable    | Production   | 1.13.4-alpine                                     |
-| [1.13.3-alpine]             | frekele/alpine:stable    | Production   | 1.13.3-alpine                                     |
-| [1.13.2-alpine]             | frekele/alpine:stable    | Production   | 1.13.2-alpine                                     |
-| [1.13.1-alpine]             | frekele/alpine:stable    | Production   | 1.13.1-alpine                                     |
-| [1.13.0-alpine]             | frekele/alpine:stable    | Production   | 1.13.0-alpine                                     |
-| [1.12.2-alpine]             | frekele/alpine:stable    | Production   | 1.12.2-alpine, 1.12-alpine                        |
-| [1.12.1-alpine]             | frekele/alpine:stable    | Production   | 1.12.1-alpine                                     |
-| [1.12.0-alpine]             | frekele/alpine:stable    | Production   | 1.12.0-alpine                                     |
-| [1.11.13-alpine]            | frekele/alpine:stable    | Production   | 1.11.13-alpine, 1.11-alpine                       |
-| [1.11.12-alpine]            | frekele/alpine:stable    | Production   | 1.11.12-alpine                                    |
-| [1.11.11-alpine]            | frekele/alpine:stable    | Production   | 1.11.11-alpine                                    |
-| [1.11.10-alpine]            | frekele/alpine:stable    | Production   | 1.11.10-alpine                                    |
-| [1.11.9-alpine]             | frekele/alpine:stable    | Production   | 1.11.9-alpine                                     |
-| [1.11.8-alpine]             | frekele/alpine:stable    | Production   | 1.11.8-alpine                                     |
-| [1.11.7-alpine]             | frekele/alpine:stable    | Production   | 1.11.7-alpine                                     |
-| [1.11.6-alpine]             | frekele/alpine:stable    | Production   | 1.11.6-alpine                                     |
-| [1.11.5-alpine]             | frekele/alpine:stable    | Production   | 1.11.5-alpine                                     |
-| [1.11.4-alpine]             | frekele/alpine:stable    | Production   | 1.11.4-alpine                                     |
-| [1.11.3-alpine]             | frekele/alpine:stable    | Production   | 1.11.3-alpine                                     |
-| [1.11.2-alpine]             | frekele/alpine:stable    | Production   | 1.11.2-alpine                                     |
-| [1.11.1-alpine]             | frekele/alpine:stable    | Production   | 1.11.1-alpine                                     |
-| [1.11.0-alpine]             | frekele/alpine:stable    | Production   | 1.11.0-alpine                                     |
-| [1.10.3-alpine]             | frekele/alpine:stable    | Production   | 1.10.3-alpine, 1.10-alpine                        |
-| [1.10.2-alpine]             | frekele/alpine:stable    | Production   | 1.10.2-alpine                                     |
-| [1.10.1-alpine]             | frekele/alpine:stable    | Production   | 1.10.1-alpine                                     |
-| [1.10.0-alpine]             | frekele/alpine:stable    | Production   | 1.10.0-alpine                                     |
-| [master-alpine]             | frekele/alpine:stable    | Development  | dev-alpine                                        |
-
-
 # Dockerfile extends From:
-- https://github.com/frekele/docker-alpine
-- https://hub.docker.com/r/frekele/alpine
+- https://github.com/frekele/docker-debian
+- https://hub.docker.com/r/frekele/debian
 
 
 ## Relations:
@@ -101,9 +67,9 @@ See [NGINX LICENSE]
 
 frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of the license are as follows:
 
-    The MIT License (MIT)
+    MIT License
 
-    Copyright (c) 2016 Leandro Kersting de Freitas
+    Copyright (c) 2016-2018 @frekele<Leandro Kersting de Freitas>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -123,6 +89,7 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
+
 [NginxImage]: https://raw.githubusercontent.com/frekele/docker-nginx/master/nginx-logo.png
 [NginxWebsite]: https://nginx.org/
 [Website]: https://frekele.github.io/docker-nginx
@@ -132,6 +99,11 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [MIT LICENSE]: https://github.com/frekele/docker-nginx/blob/master/LICENSE
 
 
+[1.15.0]: https://github.com/frekele/docker-nginx/blob/1.15.0/Dockerfile
+[1.14.0]: https://github.com/frekele/docker-nginx/blob/1.14.0/Dockerfile
+[1.13.12]: https://github.com/frekele/docker-nginx/blob/1.13.12/Dockerfile
+[1.13.11]: https://github.com/frekele/docker-nginx/blob/1.13.11/Dockerfile
+[1.13.10]: https://github.com/frekele/docker-nginx/blob/1.13.10/Dockerfile
 [1.13.9]: https://github.com/frekele/docker-nginx/blob/1.13.9/Dockerfile
 [1.13.8]: https://github.com/frekele/docker-nginx/blob/1.13.8/Dockerfile
 [1.13.7]: https://github.com/frekele/docker-nginx/blob/1.13.7/Dockerfile
@@ -164,38 +136,3 @@ frekele/docker-nginx is **licensed** under the **[MIT License]**. The terms of t
 [1.10.1]: https://github.com/frekele/docker-nginx/blob/1.10.1/Dockerfile
 [1.10.0]: https://github.com/frekele/docker-nginx/blob/1.10.0/Dockerfile
 [master]: https://github.com/frekele/docker-nginx/blob/master/Dockerfile
-
-
-[1.13.9-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.9-alpine/Dockerfile
-[1.13.8-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.8-alpine/Dockerfile
-[1.13.7-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.7-alpine/Dockerfile
-[1.13.6-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.6-alpine/Dockerfile
-[1.13.5-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.5-alpine/Dockerfile
-[1.13.4-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.4-alpine/Dockerfile
-[1.13.3-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.3-alpine/Dockerfile
-[1.13.2-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.2-alpine/Dockerfile
-[1.13.1-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.1-alpine/Dockerfile
-[1.13.0-alpine]: https://github.com/frekele/docker-nginx/blob/1.13.0-alpine/Dockerfile
-[1.12.2-alpine]: https://github.com/frekele/docker-nginx/blob/1.12.2-alpine/Dockerfile
-[1.12.1-alpine]: https://github.com/frekele/docker-nginx/blob/1.12.1-alpine/Dockerfile
-[1.12.0-alpine]: https://github.com/frekele/docker-nginx/blob/1.12.0-alpine/Dockerfile
-[1.11.13-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.13-alpine/Dockerfile
-[1.11.12-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.12-alpine/Dockerfile
-[1.11.11-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.11-alpine/Dockerfile
-[1.11.10-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.10-alpine/Dockerfile
-[1.11.9-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.9-alpine/Dockerfile
-[1.11.8-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.8-alpine/Dockerfile
-[1.11.7-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.7-alpine/Dockerfile
-[1.11.6-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.6-alpine/Dockerfile
-[1.11.5-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.5-alpine/Dockerfile
-[1.11.4-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.4-alpine/Dockerfile
-[1.11.3-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.3-alpine/Dockerfile
-[1.11.2-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.2-alpine/Dockerfile
-[1.11.1-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.1-alpine/Dockerfile
-[1.11.0-alpine]: https://github.com/frekele/docker-nginx/blob/1.11.0-alpine/Dockerfile
-[1.10.3-alpine]: https://github.com/frekele/docker-nginx/blob/1.10.3-alpine/Dockerfile
-[1.10.2-alpine]: https://github.com/frekele/docker-nginx/blob/1.10.2-alpine/Dockerfile
-[1.10.1-alpine]: https://github.com/frekele/docker-nginx/blob/1.10.1-alpine/Dockerfile
-[1.10.0-alpine]: https://github.com/frekele/docker-nginx/blob/1.10.0-alpine/Dockerfile
-[master-alpine]: https://github.com/frekele/docker-nginx/blob/master-alpine/Dockerfile
-
